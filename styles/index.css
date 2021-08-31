@@ -61,11 +61,11 @@ h2 {
 }
 
 img {
-    border-width: 4px;
+    border-width: 0px;
     border-style: dotted;
     border-color: rgb(105, 95, 4);
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgb(179, 17, 17);
+    box-shadow: 5px 5px 10px rgb(214, 68, 68);
 }
 
 
