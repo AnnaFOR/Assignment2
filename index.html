@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Italian Recipes</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <!--way this recipe is written sucks, just for purpose of assign.-->
 <body>
     <header>
         <h1>Spaghetti with Italian Meatballs</h1>
+            <br>
         <nav>
             <ul>
                 <li><a href="#ingr">List of ingredients</a></li>
@@ -17,23 +20,22 @@
                 <li><a href="#vid">Recipe video</a></li>
             </ul>
         </nav> 
-    </header>    
-    <main>
-        <section>
-            <p>
+            <br>    
+            <p class="basic-info">
                 Prep time: 30 min<br>
                 Cook time: 1 hour<br>
                 Servings: 4
             </p>
             <br>
-            <p>
-                Click on the picture for a wine tasting video in Tuscany!
+            <p class="tuscany-vid-heading">
+                Click on the picture to watch a wine tasting video in Tuscany!
             </p>
             <a href="https://www.youtube.com/watch?v=zqndGhaYRmo" target="_blank">
-            <img src="images/italian meatballs.jpg" alt="italian meatballs" 
-            title="Spaghetti with Italian meatballs" width="200px">
+            <img class="meatballs" src="images/italian-meatballs-new.jpg" alt="italian meatballs" 
+            title="Spaghetti with Italian meatballs" width="700">
             </a>
-        </section>
+        </header>
+        <main>
             <br>
         <section>
              <h3 id="ingr">Ingredients</h3>
@@ -52,7 +54,7 @@
                <li>Basil</li>
                <li>Pecorino cheese (500gr)</li>
                <li>Spaghetti (1 pack)</li>
-            <ol>
+            </ol>
         </section>
             <br>
         <section>
@@ -77,10 +79,13 @@
     </main>
             <br>
     <footer>
-        <a href="https://www.youtube.com/watch?v=Y3d9Lg8oneU" id="vid" target="_blank">
+            <a href="https://www.youtube.com/watch?v=Y3d9Lg8oneU" id="vid" target="_blank">
             How to Make ITALIAN MEATBALLS Like an Italian!</a>    
        
-        <h4>Enjoy!</h4>
+            <h2>Enjoy!</h2>
+            <img src="images/italian-flag-ribbon.jpg" alt="ribbon with italian colors"
+            title="A ribbon in the italian flag colors" width="125">
+
     </footer>
 </body>
 </html>
